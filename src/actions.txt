@@ -1,0 +1,22 @@
+edge indiagate chanakyapuri 30
+edge indiagate AIIMS 30
+edge indiagate lajpatnagar 50
+edge chanakyapuri AIIMS 20
+edge AIIMS lajpatnagar 15
+edge chanakyapuri iitmaingate 50
+edge AIIMS iitmaingate 30
+edge lajpatnagar iitmaingate 40
+taxi shaktimaan iitmaingate
+taxi batman lajpatnagar
+taxi superman indiagate
+customer iitmaingate lajpatnagar 0 chanakyapuri indiagate 0 1
+customer chanakyapuri indiagate 0 chanakyapuri AIIMS 19 52
+customer AIIMS lajpatnagar 0 lajpatnagar AIIMS 13 70
+printTaxiPosition 149
+customer indiagate chanakyapuri 0 chanakyapuri indiagate 0 150
+customer lajpatnagar indiagate 0 indiagate lajpatnagar 1 150
+customer lajpatnagar iitmaingate 0 iitmaingate lajpatnagar 0 150
+printTaxiPosition 151
+customer indiagate AIIMS 0 AIIMS indiagate 0 170
+printTaxiPosition 171
+printTaxiPosition 400
